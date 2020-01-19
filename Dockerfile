@@ -5,4 +5,6 @@ RUN apk add --no-cache openssl \
 
 EXPOSE 22 3128
 
-CMD ["/bin/bash"]
+VOLUME /etc/squid/
+
+CMD ["/bin/sh"]
