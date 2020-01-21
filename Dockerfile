@@ -1,7 +1,6 @@
 FROM alpine:3.11.3
 
-RUN apk add --update --no-cache openrc \
-	openssl \
+RUN apk add --update --no-cache openssl \
 	squid
 
 EXPOSE 3128
