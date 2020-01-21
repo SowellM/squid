@@ -10,4 +10,4 @@ VOLUME /etc/squid/
 
 ENTRYPOINT ["/etc/init.d/squid"]
 
-CMD ["start"]
+CMD ["/bin/sh"]
