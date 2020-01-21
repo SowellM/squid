@@ -8,6 +8,6 @@ EXPOSE 3128
 
 VOLUME /etc/squid/
 
-ENTRYPOINT ["/etc/init.d/squid"]
+ENTRYPOINT ["squid"]
 
 CMD ["/bin/sh"]
